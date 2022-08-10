@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-schemas" %}
-{% set version = "1.10.1" %}
+{% set version = "1.10.1.post0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-schemas-{{ version }}.tar.gz
-  sha256: 456e34d55f26f2f45935186a74f381f937e84fc5b92aa20c91ecb49ec7f0712a
+  sha256: ed0dd1d37f7136fc2d55191ffa850fe5e22c8d2c32cc1dd8174630841bbb285e
 
 build:
   number: 0
