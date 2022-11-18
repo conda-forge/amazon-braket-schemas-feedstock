@@ -6,3 +6,5 @@ bot:
   inspection: update-grayskull
   automerge: true
   check_solvable: true
+conda_build:
+  pkg_format: '2'
