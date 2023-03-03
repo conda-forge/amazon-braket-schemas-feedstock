@@ -1,11 +1,11 @@
-About amazon-braket-schemas
-===========================
+About amazon-braket-schemas-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amazon-braket-schemas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aws/amazon-braket-schemas-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amazon-braket-schemas-feedstock/blob/main/LICENSE.txt)
 
 Summary: An open source library that contains the schemas for Amazon Braket
 
