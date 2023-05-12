@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
     - pydantic >=1.8.2,<2.0.0
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
