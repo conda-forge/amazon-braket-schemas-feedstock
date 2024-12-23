@@ -11,18 +11,18 @@ source:
   sha256: 2fe23bd46d62c38ce90acac76c0e269699aadee97b81ce90aa08815d18a398e4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
   run:
     - pydantic >2
-    - python >=3.9
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/aws/amazon-braket-schemas-python
