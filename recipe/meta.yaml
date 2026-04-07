@@ -1,5 +1,6 @@
 {% set name = "amazon-braket-schemas" %}
 {% set version = "1.29.1" %}
+{% set python_min = "3.11" %}
 
 
 package:
