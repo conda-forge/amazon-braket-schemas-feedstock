@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-schemas" %}
-{% set version = "1.32.2" %}
+{% set version = "1.33.0" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4650e1dbae26de787130e19a31cea29a081d7eedebbddc03e812a217229bbe7e
+  sha256: bb6daa160fdfa9e80587b3eeb38293c698c3913d754c22b19ee6180e2006729e
 
 build:
   number: 0
